@@ -97,3 +97,57 @@
   .publication-item{grid-template-columns:1fr}
   .publication-item .outline-button{grid-column:1}
 }
+
+
+/* Contact form */
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+  gap: 2rem;
+  align-items: start;
+}
+.contact-details p {
+  margin: 0 0 .9rem;
+}
+.contact-form {
+  display: grid;
+  gap: .75rem;
+}
+.contact-form label {
+  font-weight: 600;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 1px solid rgba(127,127,127,.35);
+  border-radius: 10px;
+  padding: .9rem 1rem;
+}
+.contact-form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.contact-form .button {
+  justify-self: start;
+  cursor: pointer;
+  border: 0;
+}
+.form-note {
+  margin: .15rem 0 0;
+  font-size: .9rem;
+  opacity: .72;
+}
+@media (max-width: 760px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
