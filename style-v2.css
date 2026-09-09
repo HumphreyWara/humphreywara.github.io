@@ -591,3 +591,6 @@
     padding: 1.25rem 1.1rem;
   }
 }
+
+/* Institution labels in academic timeline */
+.education-timeline small { display:block; margin-top:.3rem; font-size:.8rem; line-height:1.35; opacity:.72; }
