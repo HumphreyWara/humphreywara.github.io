@@ -519,3 +519,17 @@
     font-size: 0.91rem !important;
   }
 }
+
+/* Visual research story */
+.visual-research-panel { grid-column:1/-1; display:grid; gap:1.5rem; margin-top:.7rem; padding-top:1.35rem; border-top:1px solid rgba(127,127,127,.25); }
+.evidence-heading span,.research-takeaway span { display:block; color:var(--accent); font-size:.92rem; font-weight:800; letter-spacing:.075em; margin-bottom:.35rem; }
+.evidence-heading h4 { margin:0; font-size:1.15rem; }
+.research-visual-block { padding-top:1.15rem; border-top:1px solid rgba(127,127,127,.18); }
+.research-visual-block h5 { margin:0 0 .8rem; font-size:1.03rem; }
+.evidence-figure { margin:0 0 1rem; max-width:920px; }
+.evidence-figure img { width:100%; height:auto; display:block; border:1px solid rgba(127,127,127,.18); border-radius:10px; }
+.evidence-figure figcaption { margin-top:.45rem; font-size:.82rem; line-height:1.45; opacity:.68; }
+.stress-strain-figure img { max-width:700px; margin:0 auto; }
+.research-visual-block > p { margin:.8rem 0 0 !important; max-width:900px; line-height:1.72 !important; }
+.research-takeaway { padding:1.15rem 1.25rem; border-left:3px solid var(--accent); background:rgba(161,91,42,.055); }
+.research-takeaway p { margin:0 !important; line-height:1.7 !important; }
