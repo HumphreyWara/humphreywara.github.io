@@ -687,3 +687,17 @@
 .dark-nav{
   z-index:40;
 }
+
+/* Final explicit HWO top-left corner */
+.dark-nav .corner-brand {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: #ffffff !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.08em !important;
+  line-height: 1 !important;
+  text-decoration: none !important;
+}
