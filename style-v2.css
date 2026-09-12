@@ -669,3 +669,21 @@
   .hero-dark .lead{font-size:21px}
   .hero-name{font-size:28px}
 }
+
+
+/* Explicit visible HWO corner brand */
+.corner-brand{
+  position:relative;
+  z-index:50;
+  display:inline-block;
+  color:#ffffff !important;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:28px !important;
+  line-height:1;
+  font-weight:900 !important;
+  letter-spacing:0.06em;
+  text-decoration:none;
+}
+.dark-nav{
+  z-index:40;
+}
